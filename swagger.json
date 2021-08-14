@@ -1,0 +1,442 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Collection for swagger",
+    "contact": {},
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "http://23.88.52.139:5028",
+      "variables": {}
+    }
+  ],
+  "paths": {
+    "/user_info_1": {
+      "post": {
+        "tags": [
+          "Misc"
+        ],
+        "summary": "user_info-1",
+        "operationId": "user_info-1",
+        "parameters": [],
+        "requestBody": {
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "encoding": {},
+              "schema": {
+                "required": [
+                  "age",
+                  "weight",
+                  "name"
+                ],
+                "type": "object",
+                "properties": {
+                  "age": {
+                    "type": "integer",
+                    "format": "int32",
+                    "example":
+                  },
+                  "weight": {
+                    "type": "integer",
+                    "format": "int32",
+                    "example":
+                  },
+                  "name": {
+                    "type": "string",
+                    "example":
+                  }
+                }
+              }
+            }
+          },
+          "required": false
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/user_info_2": {
+      "post": {
+        "tags": [
+          "Misc"
+        ],
+        "summary": "user_info-2",
+        "operationId": "user_info-2",
+        "parameters": [],
+        "requestBody": {
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "encoding": {},
+              "schema": {
+                "required": [
+                  "age",
+                  "salary",
+                  "name"
+                ],
+                "type": "object",
+                "properties": {
+                  "age": {
+                    "type": "integer",
+                    "format": "int32",
+                    "example":
+                  },
+                  "salary": {
+                    "type": "integer",
+                    "format": "int32",
+                    "example":
+                  },
+                  "name": {
+                    "type": "string",
+                    "example":
+                  }
+                }
+              }
+            }
+          },
+          "required": false
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/user_info_3": {
+      "post": {
+        "tags": [
+          "Misc"
+        ],
+        "summary": "user_info-3",
+        "operationId": "user_info-3",
+        "parameters": [],
+        "requestBody": {
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "encoding": {},
+              "schema": {
+                "required": [
+                  "age",
+                  "salary",
+                  "name"
+                ],
+                "type": "object",
+                "properties": {
+                  "age": {
+                    "type": "integer",
+                    "format": "int32",
+                    "example":
+                  },
+                  "salary": {
+                    "type": "integer",
+                    "format": "int32",
+                    "example":
+                  },
+                  "name": {
+                    "type": "string",
+                    "example":
+                  }
+                }
+              }
+            }
+          },
+          "required": false
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/user_info_4": {
+      "post": {
+        "tags": [
+          "Misc"
+        ],
+        "summary": "user_info-4",
+        "operationId": "user_info-4",
+        "parameters": [],
+        "requestBody": {
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "encoding": {},
+              "schema": {
+                "required": [
+                  "age",
+                  "salary",
+                  "name"
+                ],
+                "type": "object",
+                "properties": {
+                  "age": {
+                    "type": "integer",
+                    "format": "int32",
+                    "example":
+                  },
+                  "salary": {
+                    "type": "integer",
+                    "format": "int32",
+                    "example":
+                  },
+                  "name": {
+                    "type": "string",
+                    "example":
+                  }
+                }
+              }
+            }
+          },
+          "required": false
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/object_info_1": {
+      "get": {
+        "tags": [
+          "Misc"
+        ],
+        "summary": "object_info-1",
+        "operationId": "object_info-1",
+        "parameters": [
+          {
+            "name": "age",
+            "in": "query",
+            "description": "",
+            "required": true,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example":
+            }
+          },
+          {
+            "name": "weight",
+            "in": "query",
+            "description": "",
+            "required": true,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example":
+            }
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "description": "",
+            "required": true,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example":
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/object_info_2": {
+      "get": {
+        "tags": [
+          "Misc"
+        ],
+        "summary": "object_info-2",
+        "operationId": "object_info-2",
+        "parameters": [
+          {
+            "name": "age",
+            "in": "query",
+            "description": "",
+            "required": true,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example":
+            }
+          },
+          {
+            "name": "salary",
+            "in": "query",
+            "description": "",
+            "required": true,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example":
+            }
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "description": "",
+            "required": true,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example":
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/object_info_3": {
+      "get": {
+        "tags": [
+          "Misc"
+        ],
+        "summary": "object_info-3",
+        "operationId": "object_info-3",
+        "parameters": [
+          {
+            "name": "age",
+            "in": "query",
+            "description": "",
+            "required": true,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example":
+            }
+          },
+          {
+            "name": "salary",
+            "in": "query",
+            "description": "",
+            "required": true,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example":
+            }
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "description": "",
+            "required": true,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example":
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/object_info_4": {
+      "get": {
+        "tags": [
+          "Misc"
+        ],
+        "summary": "object_info-4",
+        "operationId": "object_info-4",
+        "parameters": [
+          {
+            "name": "age",
+            "in": "query",
+            "description": "",
+            "required": true,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example":
+            }
+          },
+          {
+            "name": "salary",
+            "in": "query",
+            "description": "",
+            "required": true,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example":
+            }
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "description": "",
+            "required": true,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example":
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Misc",
+      "description": ""
+    }
+  ]
+}
